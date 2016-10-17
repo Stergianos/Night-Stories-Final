@@ -3,7 +3,7 @@
   <description>R.P.G. inspired by Pen n' Paper tabletop games.
 	A short story driven game for enthusiasts that love mystery and supernatural.
 	First try!Hope you enjoy it!</description>
-  <author href="http://phonegap.com" email="gmsp@gmail.com">GMSP</author>
+  <author href="http://phonegap.com" email="gmsp.tech@gmail.com">GMSP</author>
   <content src="index.html"/>
   <preference name="DisallowOverscroll" value="true"/>
   <preference name="android-minSdkVersion" value="14"/>
