@@ -66,10 +66,10 @@
 			document.getElementById('sergeant').disabled=true;
 		}
 		function enable(){ // enable exit from scene choice when all other choices are clicked
-			var bt1 = document.getElementById('archive');
+			//var bt1 = document.getElementById('archive');
 			var bt2 = document.getElementById('andrew');
 			var bt3 = document.getElementById('sergeant');
-			if (bt1.disabled==true && bt2.disabled==true && bt3.disabled==true){
+			if (bt2.disabled==true && bt3.disabled==true){
 				document.getElementById('exit').disabled=false;
 			}
 		}
@@ -128,9 +128,9 @@
 	<!-- <p class="black">
 		<button type="button" id="archive" class="linkbutton" onclick="location.href='#openModal'; disable(); enable(); setCookie('archive', 'true')">• Take a look at the archive for 
 		a second chance on the case. More details are always welcome.</button>
-		<div id="openModal" class="modalDialog"> <!-- creation of the popup window 
+		<div id="openModal" class="modalDialog"> 
 			<div>
-				<a onclick="location.href='#close'" title="" class="close">x</a> <!-- close button of popup 
+				<a onclick="location.href='#close'" title="" class="close">x</a>
 				<p>
 					Damn, I should have known that this time of night it's closed. Think I need to rest soon.
 				</p>
