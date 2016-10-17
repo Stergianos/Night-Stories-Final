@@ -1,0 +1,87 @@
+@media (min-width:240px) { body {font-size:0.7rem;} } /*responsive*/
+@media (min-width:320px) { body {font-size:0.7rem;} }
+@media (min-width:480px) { body {font-size:0.9rem;} }
+@media (min-width:720px) { body {font-size:1.1rem;} }
+@media (min-width:960px) { body {font-size:1.3rem;} } 
+@media (min-width:1024px) { body {font-size:1.5rem;} }
+@media (min-width:1280px) { body {font-size:1.7rem;} }
+@media (min-width:1366px) { body {font-size:1.9rem;} }
+@media (min-width:1440px) { body {font-size:2.1rem;} }
+@media (min-width:1680px) { body {font-size:2.3rem;} }
+@font-face{ /*enter own txt-font*/
+	font-family: "LaurenScript";
+	src: url('LaurenScript.ttf');
+}
+@font-face{ /*enter own txt-font*/
+	font-family: "Gill Sans Hel";
+	src: url('Gill Sans Hel.otf');
+}
+html{ /*unselectable*/
+	background-color: black;
+	-webkit-user-select: none;      
+	-moz-user-select: none; 
+	-ms-user-select: none;
+	cursor: default;
+	font-family: "LaurenScript";
+	font-size:100%
+}
+h4 {
+	text-align: right;
+	color: white;
+}
+p {
+	text-align: justify; 
+	text-justify: inter-word;
+	padding-left: 30px;
+	padding-right: 30px;
+	color: white;
+}
+.links{ 
+	cursor: pointer;
+}
+.imagenext{
+	width: 9%;
+	position:relative;
+	left: 91%;
+	bottom: 5%;
+}
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+.fade-in {
+	opacity:0; 
+	-webkit-animation:fadeIn ease-in 1;  /* call keyframe */
+	-moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+
+	-webkit-animation-fill-mode:forwards;  /* kepp last keyframe value (opacity: 1) */
+	-moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+
+	-webkit-animation-duration:2.5s;
+	-moz-animation-duration:2.5s;
+	animation-duration:2.5s;
+}
+.fade-in.one {
+-webkit-animation-delay: 8.7s;
+-moz-animation-delay: 8.7s;
+animation-delay: 8.7s;
+}
+.blood1{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	bottom: 35%;
+}
+.fade-in.two {
+-webkit-animation-delay: 11.8s;
+-moz-animation-delay: 11.8s;
+animation-delay: 11.8s;
+}
+.blood2{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	bottom: 20%;
+	left: 35%;
+}
