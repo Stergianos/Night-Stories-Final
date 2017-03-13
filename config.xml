@@ -1,4 +1,4 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.phonegap.nightstories" version="1.0.0">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.phonegap.nightstories" version="1.2.0">
   <name>Night Stories - New Orleans</name>
   <description>R.P.G. inspired by Pen n' Paper tabletop games.
 	A short story driven game for enthusiasts that love mystery and supernatural.
@@ -111,8 +111,8 @@
   <platform name="android">
     <allow-intent href="market:*"/>
   </platform>
-  <platform name="ios">
+  <!--<platform name="ios">
     <allow-intent href="itms:*"/>
     <allow-intent href="itms-apps:*"/>
-  </platform>
+  </platform>-->
 </widget>
